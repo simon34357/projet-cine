@@ -1,0 +1,11 @@
+.btn-success {
+    margin: 0 55px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background: rgb(3, 3, 3);
+    color: aliceblue;
+    box-shadow: 0 0 15px rgb(241, 234, 234);
+    transform: scale(1.1);
+}

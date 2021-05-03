@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.867);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+/*navbar */
+
+.navbar .navbar-light {
+    height: 100px;
+}
+
+
+/* mes liens a de la navbar */
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* -------------------------- */
+
+.connection ul {
+    display: flex;
+    margin: 10px 0;
+}
+
+.connection ul li {
+    margin-left: 10px;
+}
+
+.connection ul li a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form-control {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ----------FIN----------------- */
+
+.btn-primary {
+    margin: 30px 10px;
+    width: 110px;
+    border-radius: 25px;
+}
+
+.title-page {
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px yellow;
+}
+
+
+/*  carousel-------------------------------*/
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FIN carousel */
+
+hr {
+    border: solid 5px rgb(248, 233, 233);
+    border-radius: 5px;
+}
+
+img {
+    width: 280px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    border-top: solid 2px white;
+    padding: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}

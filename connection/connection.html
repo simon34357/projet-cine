@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-header bg-primary text-white">
+            <h2>Connection</h2>
+        </div>
+        <div class="card-body bg-dark text-white">
+
+            <div class="form-group">
+                <label for="firstName">Pseudo</label>
+                <input type="text" id="firstName" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="email"> Adresse mail</label>
+                <input type="text" id="email" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label for="pass">Mot de passe</label>
+                <input type="password" id="pass" class="form-control">
+                <p id="mdp"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="pass2">Confimation de mot de passe</label>
+                <input type="text" id="pass2" class="form-control">
+                <p id="mdp2"></p>
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" id="condition">
+                <label for="condition" class="form-check-label">j'accept les condition d'utilisation du site</label>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-success" id="valid">Valider</button>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src=""></script> -->
+</body>
+
+</html>
